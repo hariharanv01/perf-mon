@@ -112,11 +112,16 @@ Let's discuss in brief about the perf-mon annotations.
  
 3. @PerfHistogram
 
-    This annotation is used to measure the statistical distribution of values in a stream of data. e.g. Distribution of list of elements returned from the DB. By default, the method name along with the fully qualified class name is used as the label for this metrics. eg. com.MyClass.mymethod. This annotation has the following properties.
+    
+    This annotation is used to measure the statistical distribution of values in a stream of data. e.g. Distribution of list of elements returned from the DB. By default, the method name along with the fully qualified class name is used as the label for this metrics. eg. com.MyClass.mymethod. 
+    
+    This annotation can only be used in methods that has a java.util.Collection as the first or last argument in the method definition or as the return type. Value for null collections will be considered zero.
+    
+    This annotation has the following properties.
+
     Property | Description
     :---------:|:-------------------
-    label |	By default the label for this metrics is the fully qualified class name with the method name. If you want to override this behavior you can use this property. 
-    This annotation can only be used in methods that has a java.util.Collection as the first or last argument in the method definition or as the return type. Value for null collections will be considered zero.
+    label |	By default the label for this metrics is the fully qualified class name with the method name. If you want to override this behavior you can use this property
  
  
 4. @PerfExceptionCounter
