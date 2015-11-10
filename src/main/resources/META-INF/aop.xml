@@ -1,0 +1,5 @@
+<aspectj>
+	<aspects>
+		<aspect name="com.h2v.perf.mon.aspects.PerfMonAspect" />
+	</aspects>
+</aspectj>
