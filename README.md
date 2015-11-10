@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/hariharanv01/perf-mon.svg)](https://travis-ci.org/hariharanv01/perf-mon.svg)
+
+
 # Perf-Mon
 
 ### About
