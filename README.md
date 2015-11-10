@@ -1,0 +1,2 @@
+# perf-mon
+Performance Monitor(perf-mon) is a Metrics API library based framework that can be used in Java applications to record and monitor performance. The framework comes with a host of annotations and functionalities that can be very easily bound to any java application. It's a wrapper over Metrics api library to get rid of all the boiler plate code just using annotations most of the time. It also provides additional functionalities for tracking performance recordings.
