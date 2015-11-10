@@ -16,7 +16,7 @@ Integrating your application with perf-mon
 <plugin>
     <groupId>org.codehaus.mojo</groupId>
     <artifactId>aspectj-maven-plugin</artifactId>
-    <version>1.6</version>
+    <version>1.7</version>
     <configuration>
         <complianceLevel>1.6</complianceLevel>
         <source>1.6</source>
